@@ -188,5 +188,28 @@
 // console.log(output);
 // console.log(multiply);
 
-let string = "ArjitLohani";
-console.log(string.split());
+// let button = document.getElementById("myButton");
+// console.log(button);
+
+// let headings = document.getElementsByClassName("heading");
+// console.log(headings);
+// console.dir(headings);
+
+// let button = document.getElementById("mybutton"); 
+// console.dir(button);
+
+// let heading = document.getElementsByClassName("heading");
+// console.log(heading);
+// console.dir(heading);
+
+// let paras = document.getElementsByTagName("p");
+// console.log(paras);
+
+let element = document.querySelector("p");
+console.dir(element);
+
+
+
+
+let elementAll = document.querySelectorAll("p");z
+console.dir(elementAll);

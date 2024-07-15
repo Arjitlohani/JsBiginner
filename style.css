@@ -1,0 +1,18 @@
+h1{
+    color: red;
+    font-size: 50px;
+}
+
+h4{
+    background-color: yellow;
+}
+
+.heading{
+    color: blue;
+}
+
+#myButton{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
