@@ -17,16 +17,50 @@
 // // console.log(shift);
 
 
-const array =[1,2,3,4,5];
-push(6);
-function push(val){
-    array.push(val);
-    console.log(array);
+// const array =[1,2,3,4,5];
+// push(6);
+// function push(val){
+//     array.push(val);
+//     console.log(array);
     
+// }
+// function pop(){
+//     array.pop();
+//     console.log(array);
+// }
+// pop();
+
+// function shift(){
+//     array.shift();
+//     console.log(array);
+// }
+// shift();
+
+// enqueue(7)
+// function enqueue(val){
+//     array.push(val);
+//     console.log(array);
+// }
+
+// function dequeue(){
+//     array.shift();
+//     console.log(array);
+// }
+// dequeue();
+
+const array = [1,2,3,4,5];
+
+push(6)
+function push(val){
+	array.push(val);
+	console.log(array);
 }
+
+
 function pop(){
     array.pop();
     console.log(array);
+    
 }
 pop();
 
@@ -36,10 +70,10 @@ function shift(){
 }
 shift();
 
-enqueue(7)
-function enqueue(val){
-    array.push(val);
-    console.log(array);
+push(7)
+function Queue(val){
+	array.push(val);
+	console.log(array);
 }
 
 function dequeue(){
@@ -47,6 +81,3 @@ function dequeue(){
     console.log(array);
 }
 dequeue();
-
-
-
