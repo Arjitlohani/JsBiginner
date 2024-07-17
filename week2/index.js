@@ -18,20 +18,22 @@
 // console.log(normalObject, "Normal Object");
 
 
-const obhectOne={
-	firstname: "Anita",
-	lastname: "Chhatkuli",
-	age: 45,
-	cratedAt: new Date
-}
+// const obhectOne={
+// 	firstname: "Anita",
+// 	lastname: "Chhatkuli",
+// 	age: 45,
+// 	cratedAt: new Date
+// }
 
-const {firstname, lastname, age, createdAt}=obhectOne;
+// const {firstname, lastname, age, createdAt}=obhectOne;
 
-const newObject =JSON.stringify(obhectOne);
+// const newObject =JSON.stringify(obhectOne);
 
-const norObj= JSON.parse(newObject);
+// const norObj= JSON.parse(newObject);
 
+// const Div = document.querySelector("#div");
+// console.log(Div);
 
+// console.log(newObject);
+// console.log(norObj);
 
-console.log(newObject);
-console.log(norObj);
