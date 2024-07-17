@@ -211,5 +211,5 @@ console.dir(element);
 
 
 
-let elementAll = document.querySelectorAll("p");z
-console.dir(elementAll);
+// let elementAll = document.querySelectorAll("p");
+// console.dir(elementAll);
