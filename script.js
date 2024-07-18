@@ -205,11 +205,10 @@
 // let paras = document.getElementsByTagName("p");
 // console.log(paras);
 
-let element = document.querySelector("p");
-console.dir(element);
-
-
-
+// let element = document.querySelector("p");
+// console.dir(element);
 
 // let elementAll = document.querySelectorAll("p");
 // console.dir(elementAll);
+
+console.dir(document.body.firstChild)
