@@ -211,4 +211,19 @@
 // let elementAll = document.querySelectorAll("p");
 // console.dir(elementAll);
 
-console.dir(document.body.firstChild)
+// console.dir(document.body.firstChild)
+
+// let element = document.querySelector("h2");
+
+// element.innerText= element.innerText + " - Arjit Lohani";
+// console.dir(element.innerText);
+
+let divs= document.querySelectorAll(".box");
+for (i =0;i<divs.length;i++){
+    divs[i].innerText= "new text--" + (i);
+
+
+}
+// divs[0].innerText= "new text1";
+// divs[1].innerText= "new text2";
+// divs[2].innerText= "new text3";

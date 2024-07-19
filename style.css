@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color: red;
     font-size: 50px;
 }
@@ -15,4 +15,15 @@ h4{
     background-color: green;
     color: white;
     font-size: 20px;
+} */
+
+.box{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: aqua;
 }
